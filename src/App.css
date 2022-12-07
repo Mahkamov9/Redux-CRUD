@@ -1,4 +1,19 @@
 .App{
+  text-align: center;
+}
+
+.displayUsers{
+  box-sizing: border-box;
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.users-box{
+  padding: 8px;
+  margin-top: 10px;
+  width: 400px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 20px rgb(184, 180, 180);
 }
